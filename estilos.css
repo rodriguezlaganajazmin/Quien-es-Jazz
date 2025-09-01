@@ -50,7 +50,7 @@ body {
         text-align: center;
         color: #fcd1f6;
         background-color: #ff4500;
-       margin: 100px;
+        margin: 0px;
         padding: 10px;
         bottom: 0;
         width: 100%;
@@ -64,7 +64,7 @@ body {
         font-size: 30px;
         color: #ff4500;
         background-color:olive;
-        margin: 30px;
+        margin: 0px;
         padding: 40px;
         border: 20px;
         width: 80%;
