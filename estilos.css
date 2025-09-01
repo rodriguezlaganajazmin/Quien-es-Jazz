@@ -2,79 +2,105 @@
 @charset "UTF-8";
 
 
-* { font-family: 'Alegreya', serif;
+* {
+    font-family: 'Alegreya', serif;
     font-size: 20px;
 }
 
 body {
-   
+
     background-color: #fcd1f6;
-    
-       
-    }
 
-    main {
-        margin: 50px;
-        margin-top: 100px;
-        padding: 60px;
-        border: 20px solid #ff4500;
-        border-radius: 40px;
-        
-    }   
-    
-    h1 {
-        font-family: 'Syne', sans-serif;
-         font-size: 70px;
-         font-weight: bold;
-         color: #ff4500;
-        text-align: center;
-    }
-    
-    h2 {font-family: 'Syne', sans-serif;
-        font-size: 50px;
-        color: #000000;
-        text-align: left;
-    }
+}
 
-    h3 {font-family: 'Syne', sans-serif;
-        font-size: 30px;
-        font-weight: lighter;
-        color: #000000;
-        text-align: left;
-    }
-    
-    p {
-        font-size: 20px;
-        line-height: 1.6;
-    }
+main {
+    margin: 50px;
+    margin-top: 100px;
+    padding: 60px;
+    border: 20px solid #ff4500;
+    border-radius: 40px;
 
-    footer {
-        font-size: 10px;
-        text-align: center;
-        color: #fcd1f6;
-        background-color: #ff4500;
-        margin: 0px;
-        padding: 10px;
-        bottom: 0;
-        width: 100%;
-        border: 20px;
-        border-radius: 40px;
-        display: flex;
-        justify-content: center;
-    }
+}
 
-    nav {
-        font-size: 30px;
-        color: #ff4500;
-        background-color:rgb(155, 155, 1);
-        margin: 0px;
-        padding: 40px;
-        border: 20px;
-        width: 80%;
-        max-width: max-content 80;
-        text-align: left;
-        border-radius: 40px;
-        display: flex;
-        justify-content: space-around;
+h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: #ff4500;
+    text-align: center;
+}
 
-    }
+h2 {
+    font-family: 'Syne', sans-serif;
+    font-size: 50px;
+    color: #000000;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Syne', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #000000;
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+footer {
+    font-size: 10px;
+    text-align: center;
+    color: #fcd1f6;
+    background-color: #ff4500;
+    margin: 0px;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    border: 20px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav {
+    font-size: 30px color: #ff4500;
+    background-color: rgb(155, 155, 1);
+    margin: 100px;
+    padding: 40px;
+    border: 20px;
+    width: 80%;
+    max-width: max-content 80;
+    text-align: left;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+img {
+    display: block;
+    margin-left: 15px;
+    border-radius: 40px;
+    border-color: #ff4500;
+    border-style: solid;
+    border-width: 5px;
+}
+article {
+  display: flex;          
+  gap: 10px;              
+  justify-content: center;
+  align-items: center;    
+  flex-wrap: wrap;        
+}
+section.descripcion {
+  display: flex;          
+  gap: 10px;             
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
