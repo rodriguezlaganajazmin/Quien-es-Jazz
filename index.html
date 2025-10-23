@@ -10,26 +10,35 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Syne:wght@400..800&display=swap"
         rel="stylesheet">
-    <link rel="icon" type="image/svg+xml" href="img/favicon.svg" sizes="any"/>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg" sizes="any" />
 
 </head>
 
 <body>
     <header>
         <nav>
-            <a href=""> Quiên es?</a>
-            <a href=""> Qué hace?</a>
-            <a href=""> Qué hizo?</a>
+            <a href="quien"> Quiên es?</a>
+            <a href="que"> Qué hace?</a>
+            <a href="contacto"> Cómo la llamo?</a>
         </nav>
     </header>
 
     <main>
         <section>
             <h1>Jazmín Rodriguez Laganá</h1>
+            <div class="acordeon">
+                <button class="boton acordeon-btn">Quién es?</button>
+                <div class="acordeon-contenido">
+                    <h4>Hola soy Jazz!</h4>
+                    <h4>Bienvenidos a mi página web</h4>
+                    <p>Me gusta salir a pasear con mi perrita Roma. Hago snowboard de día, como pizza de noche ;)</p>
+                </div>
+            </div>
+            <p>
+Soy de Burzaco y tengo 24 años.</p>
         </section>
 
-        <p> Hola! Me gusta salir a pasear con mi perrita. Hago snowboard de día, como pizza de noche.
-            Soy de Burzaco, tengo 24 años. </p>
+
 
         <article>
             <img src="img/roma.jpg" alt="romita" width="375px" height="500px" />
@@ -38,27 +47,39 @@
 
         </article>
 
-        <section class="flex-container">
-            <div class="columna">
-                <h2>Experiencia laboral</h2>
-                <h3>Ti Amo Pizzería</h3>
-                <ul>
-                    <li>Encargada de salón</li>
-                    <li>Atención al cliente</li>
-                </ul>
-                <h3>Ski Butternut - Work & Travel</h3>
-                <ul>
-                    <li>Atención al Cliente</li>
-                </ul>
+        <section class="info">
+            <h2>Información importante</h2>
+
+            <div class="acordeon">
+                <button class="boton acordeon-btn">Experiencia</button>
+                <div class="acordeon-contenido">
+                    <h3>Experiencia laboral</h2>
+                        <h4>Ti Amo Pizzería
+                    </h3>
+                    <ul>
+                        <li>Encargada de salón</li>
+                        <li>Atención al cliente</li>
+                    </ul>
+                    <h4>Ski Butternut - Work & Travel</h3>
+                        <ul>
+                            <li>Atención al Cliente</li>
+                        </ul>
+                </div>
             </div>
 
-            <div class="columna">
-                <h2>Educación</h2>
-                <ul>
-                    <li>Lic. en Diseño y Comunicación Visual - UNLa</li>
-                    <li>Diplomatura en Community Manager y Marketing Digital - UTN</li>
-                    <li>Bachiller en Ciencias Sociales - Colegio de la campiña</li>
-                </ul>
+            <div class="acordeon">
+                <button class="boton acordeon-btn">Educación</button>
+                <div class="acordeon-contenido">
+                    <h3>Educación</h2>
+                        <ul>
+                            <h4>Universidad Nacional de Lanús</h4>
+                            <li>Lic. en Diseño y Comunicación Visual</li>
+                            <h4>Universidad Tecnólogica Nacional</h4>
+                            <li>Diplomatura en Community Manager y Marketing Digital</li>
+                            <h4>Colegio de la Campiña</h4>
+                            <li>Bachiller en Ciencias Sociales</li>
+                        </ul>
+                </div>
             </div>
         </section>
 
