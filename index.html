@@ -31,14 +31,11 @@
                 <div class="acordeon-contenido">
                     <h4>Hola soy Jazz!</h4>
                     <h4>Bienvenidos a mi página web</h4>
-                    <p>Me gusta salir a pasear con mi perrita Roma. Hago snowboard de día, como pizza de noche ;)</p>
+                    <p>Me gusta salir a pasear con mi perrita Roma. Hago snowboard de día, como pizza de noche ;) Soy de
+                        Burzaco y tengo 24 años.</p>
                 </div>
             </div>
-            <p>
-Soy de Burzaco y tengo 24 años.</p>
         </section>
-
-
 
         <article>
             <img src="img/roma.jpg" alt="romita" width="375px" height="500px" />
@@ -87,6 +84,25 @@ Soy de Burzaco y tengo 24 años.</p>
     <footer>
         <p> Catedra Wischñevsky 2025</p>
     </footer>
+
+    <script>
+        // --- Script del acordeón ---
+        const botones = document.querySelectorAll(".acordeon-btn");
+
+        botones.forEach(boton => {
+            boton.addEventListener("click", () => {
+                const contenido = boton.nextElementSibling;
+                contenido.classList.toggle("activo");
+
+                // animación suave
+                if (contenido.classList.contains("activo")) {
+                    contenido.style.maxHeight = contenido.scrollHeight + "px";
+                } else {
+                    contenido.style.maxHeight = 0;
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
