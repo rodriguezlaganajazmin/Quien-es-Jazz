@@ -209,10 +209,6 @@ element.style {
     border-radius: 40px;
     height: 100px;
     cursor: pointer;
-    font-weight: 800;
-    font-family: 'Syne';
-    color: #FCD1F6;
-    font-size: 40px;
     transition: background .3s ease;
 }
 
@@ -233,12 +229,11 @@ element.style {
 }
 
 .accordion_content p {
-    font-family: 'Bitter', serif;
+    font-family: 'Syne', sans-serif;
     font-weight: 400;
     font-size: 1rem;
-    color: #FCD1F6;
+    color: #333;
     margin: 1rem 0;
-    background-color: #F44326;
 }
 
 /* CUANDO ESTÁ ABIERTO */
