@@ -202,7 +202,6 @@ element.style {
 
 }
 
-/* BOTÓN */
 .accordion_btn {
     background: #7C8B23;
     border: none;
@@ -217,7 +216,7 @@ element.style {
     background: #6b7a1e;
 }
 
-/* CONTENIDO */
+
 .accordion_content {
     max-height: 0;
     overflow: hidden;
@@ -237,7 +236,6 @@ element.style {
     margin: 1rem 0;
 }
 
-/* CUANDO ESTÁ ABIERTO */
 .accordion_content.show {
     background-color: #7C8B23;
     border-radius: 40px;
