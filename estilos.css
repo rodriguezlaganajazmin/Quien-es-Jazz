@@ -18,7 +18,7 @@ nav {
     padding: 0;
     border-radius: 40px;
     width: 100%;
-    height: 100px;
+    height: 120px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -34,8 +34,8 @@ nav a {
     color: #fcd1f6;
     /* text-decoration: none; */
     margin: 0px;
-    margin-right: 20px;
-    font-size: 1.2rem;
+    margin-right: 30px;
+    font-size: 20px;
     font-family: 'Syne', sans-serif;
     font-weight: 800;
 }
@@ -83,10 +83,8 @@ h4 {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 3.3125rem;
-    /* 220.833% */
+    /* line-height: 3.3125rem; */
     width: 23.0625rem;
-    height: 25.75rem;
     flex-shrink: 0;
 }
 
@@ -107,6 +105,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #fcd1f6;
 }
 
 
@@ -173,7 +172,8 @@ div.cards {
 .card {
     background: #F44326;
     color: #fcd1f6;
-    width: 260px;
+    width: 600px;
+    height: fit-content;
     padding: 2rem;
     border-radius: 20px;
     text-align: left;
@@ -184,23 +184,66 @@ div.cards {
     margin-bottom: .8rem;
 }
 
-    .columna {
-        flex: 1;
-        min-width: 250px;
-    }
+.columna {
+    flex: 1;
+    min-width: 250px;
+}
 
-    element.style {
-        width: 35%;
-    }
+element.style {
+    width: 35%;
+}
 
-    div.acordeon {
-        display: flex;
-        display: flex;
-        width: 31.25rem;
-        height: 7.5rem;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-        border-radius: 6.25rem;
-        background: #7C8323;
-    }
+/*  div.accordion {
+    display: flex;
+
+    width: 31.25rem;
+    height: 7.5rem;
+    justify-content: start;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    margin-right: auto;
+    border-radius: 6.25rem;
+    background: #7C8323;
+
+}
+/* CONTENEDOR */
+.accordion {
+  max-width: 600px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* BOTÓN */
+.accordion__btn {
+  background: #7C8B23;
+  color: white;
+  border: none;
+  padding: .8rem 1.8rem;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background .3s ease;
+}
+
+.accordion__btn:hover {
+  background: #6b7a1e;
+}
+
+/* CONTENIDO */
+.accordion__content {
+  max-height: 0;
+  overflow: hidden;
+  text-align: center;
+  transition: max-height .3s ease;
+  padding: 0 1rem;
+}
+
+/* CUANDO ESTÉ ABIERTO */
+.accordion__content.show {
+  padding-top: 1rem;
+}
