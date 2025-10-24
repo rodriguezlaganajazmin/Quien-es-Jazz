@@ -88,7 +88,7 @@ h4 {
     margin: 10px;
 }
 
-h5 { 
+h5 {
     color: #FCD1F6;
     font-family: 'Bitter', serif;
     font-size: 24px;
@@ -101,7 +101,7 @@ h5 {
     align-items: center;
 }
 
-h6 { 
+h6 {
     color: #FCD1F6;
     font-family: 'Bitter', serif;
     font-size: 24px;
@@ -216,8 +216,7 @@ element.style {
     width: 35%;
 }
 
-.accordion 
-{
+.accordion {
     max-width: 600px;
     margin: 2rem auto;
     max-width: 600px;
@@ -227,28 +226,28 @@ element.style {
     justify-content: center;
     background-color: #7C8B23;
     border-radius: 40px;
-    
+
 }
 
 .accordion_btn {
-   
-    background: #7C8B23;
+
+    background: #F44326;
     border: none;
     padding: .8rem 1.8rem;
     border-radius: 40px;
     height: 100px;
     cursor: pointer;
     transition: background .3s ease;
-    padding: 20px;
-    margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
     border-style: none;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .accordion_btn:hover {
-     background: #6b7a1e;
+    background: #6b7a1e;
 }
 
 
@@ -267,10 +266,10 @@ element.style {
 }
 
 .accordion_content p {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Bitter', serif;
     font-weight: 400;
-    font-size: 1rem;
-    color: #333;
+    font-size: 18px;
+    color: #fcd1f6;
     margin: 1rem 0;
 }
 
