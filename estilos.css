@@ -165,6 +165,9 @@ div.cards {
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
+    background-color: #FF4500;
+    padding: 2rem;
+    border-radius: 20px;
 }
 
 .card {
