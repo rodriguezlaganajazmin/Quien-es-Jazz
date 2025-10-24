@@ -203,21 +203,17 @@ element.style {
 
 /* BOTÓN */
 .accordion_btn {
-    width: 500px;
-    height: 120px;
     background: #7C8B23;
-    color: white;
     border: none;
-    border-radius: 100px;
+    padding: .8rem 1.8rem;
+    border-radius: 40px;
+    height: 100px;
     cursor: pointer;
-    font-family: 'Syne', sans-serif;
     font-weight: 800;
-    font-size: 1.4rem;
-    letter-spacing: 0.5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.3s ease;
+    font-family: 'Syne';
+    color: #FCD1F6;
+    font-size: 40px;
+    transition: background .3s ease;
 }
 
 .accordion_btn:hover {
@@ -237,11 +233,12 @@ element.style {
 }
 
 .accordion_content p {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Bitter', serif;
     font-weight: 400;
     font-size: 1rem;
-    color: #333;
+    color: #FCD1F6;
     margin: 1rem 0;
+    background-color: #F44326;
 }
 
 /* CUANDO ESTÁ ABIERTO */
