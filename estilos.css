@@ -172,9 +172,8 @@ div.cards {
     background: #F44326;
     color: #fcd1f6;
     width: 600px;
-    height: fit-content;
     padding: 2rem;
-    border-radius: 20px;
+    border-radius: 40px;
     text-align: left;
 }
 
@@ -192,57 +191,62 @@ element.style {
     width: 35%;
 }
 
-/*  div.accordion {
-    display: flex;
-
-    width: 31.25rem;
-    height: 7.5rem;
-    justify-content: start;
-    align-items: center;
-    margin-left: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 10px;
-    margin-right: auto;
-    border-radius: 6.25rem;
-    background: #7C8323;
-
-}
 /* CONTENEDOR */
 .accordion {
-  max-width: 600px;
-  margin: 2rem auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    max-width: 600px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 /* BOTÓN */
-.accordion__btn {
-  background: #7C8B23;
-  color: white;
-  border: none;
-  padding: .8rem 1.8rem;
-  border-radius: 30px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: background .3s ease;
+.accordion_btn {
+    width: 500px;
+    height: 120px;
+    background: #7C8B23;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
 }
 
-.accordion__btn:hover {
-  background: #6b7a1e;
+.accordion_btn:hover {
+    background: #6b7a1e;
 }
 
 /* CONTENIDO */
-.accordion__content {
-  max-height: 0;
-  overflow: hidden;
-  text-align: center;
-  transition: max-height .3s ease;
-  padding: 0 1rem;
+.accordion_content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    background: #FCD1F6;
+    border-radius: 20px;
+    margin-top: 1rem;
+    padding: 0 1.5rem;
+    width: 500px;
 }
 
-/* CUANDO ESTÉ ABIERTO */
-.accordion__content.show {
-  padding-top: 1rem;
+.accordion_content p {
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #333;
+    margin: 1rem 0;
+}
+
+/* CUANDO ESTÁ ABIERTO */
+.accordion_content.show {
+    max-height: 300px;
+    /* ajustá según la cantidad de texto */
+    padding: 1.5rem;
 }
