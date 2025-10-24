@@ -231,14 +231,14 @@ element.style {
 
 .accordion_btn {
 
-    background: #F44326;
+   /* background: #F44326; */
     border: none;
     padding: .8rem 1.8rem;
     border-radius: 40px;
     height: 100px;
     cursor: pointer;
     transition: background .3s ease;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     border-style: none;
     width: 600px;
     display: flex;
@@ -247,7 +247,7 @@ element.style {
 }
 
 .accordion_btn:hover {
-    background: #6b7a1e;
+    background: #7C8B23;
 }
 
 
