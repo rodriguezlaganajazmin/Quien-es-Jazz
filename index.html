@@ -41,7 +41,6 @@
                 </div>
                 </div>
             </section>
-            <script src="script.js"></script>
 
             <article class="fotos">
                 <img src="img/roma.jpg" alt="romita" width="375px" height="500px" />
@@ -88,20 +87,26 @@
     <footer>
         <p> Catedra Wischñevsky 2025</p>
     </footer>
-    <script>
-        const btn = document.querySelector('.accordion__btn');
-        const content = document.querySelector('.accordion__content');
+   
+   <script>
+  const btn = document.querySelector('.accordion_btn');
+  const content = document.querySelector('.accordion_content');
 
-        btn.addEventListener('click', () => {
+  btn.addEventListener('click', () => {
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
 
-            const expanded = btn.getAttribute('aria-expanded') === "true" || false;
-            btn.setAttribute('aria-expanded', !expanded);
+    // Cambiar estado
+    btn.setAttribute('aria-expanded', !expanded);
+    content.classList.toggle('show');
 
-            content.classList.toggle('show');
-            content.style.maxHeight =
-                expanded ? "0" : content.scrollHeight + "px";
-        });
-    </script>
+    // Animar apertura / cierre
+    if (expanded) {
+      content.style.maxHeight = '0';
+    } else {
+      content.style.maxHeight = content.scrollHeight + 'px';
+    }
+  });
+</script>
 </body>
 
 </html>
