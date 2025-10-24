@@ -228,18 +228,10 @@ element.style {
     background-color: #7C8B23;
     border-radius: 40px;
 }
-button
-{ 
-    padding: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-style: none;
-    background: #7C8B23;
-}
+
 .accordion_btn {
-    background: #FF4500;
+   
+    background: #7C8B23;
     padding: .8rem 1.8rem;
     border-radius: 40px;
     height: 100px;
@@ -254,7 +246,7 @@ button
 }
 
 .accordion_btn:hover {
-    background: #6b7a1e;
+    background: #ff4500;
 }
 
 
@@ -267,25 +259,22 @@ button
     margin-top: 1rem;
     padding: 0 1.5rem;
     width: 500px;
-}
-
-.accordion_content p {
-    font-family: 'Syne', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    color: #333;
-    margin: 1rem 0;
-}
-
-.accordion_content 
-{
     margin-left: 20px;
     height: 200px;
     margin-right: 20px;
 }
 
+/*.accordion_content p {
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #333;
+    margin: 1rem 0;
+}*/
+
+
 .accordion_content.show {
-    background-color: #7C8B23;
+    background: #ff4500;
     border-radius: 40px;
     display: flex;
     flex-direction: column;
@@ -295,5 +284,4 @@ button
     margin-top: 0px;
     border-radius: 40px;
     align-items: center;
-    flex-direction: column;
 }
