@@ -35,8 +35,8 @@ h2 {
     font-size: 4rem;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;    
-    
+    line-height: normal;
+
 }
 
 h3 {
@@ -102,9 +102,7 @@ footer {
 
 }
 
-header {
-    
-}
+header {}
 
 nav {
     background: #7C8B23;
@@ -123,6 +121,7 @@ nav {
     margin-bottom: 0;
 
 }
+
 nav a {
     color: #fcd1f6;
     /* text-decoration: none; */
@@ -142,7 +141,7 @@ img {
     border-width: 5px;
 }
 
-article {
+article.fotos {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -161,6 +160,23 @@ article {
     gap: 30px;
     margin-top: 20PX;
     flex-wrap: wrap;
+}
+
+div.tajetas {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background: #F44326;
+    color: #fcd1f6;
+    width: 260px;
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: left;
+
 }
 
 .columna {

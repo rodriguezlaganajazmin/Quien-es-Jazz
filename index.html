@@ -37,39 +37,45 @@
                         Burzaco y tengo 24 años.</p>
                 </div>
             </div>
-            <article class="fotos">
-                <img src="img/roma.jpg" alt="romita" width="375px" height="500px" />
-                <img src="img/pizza.jpg" alt="pizza jaz" width="375px" height="500px" />
-                <img src="img/snowboard.jpg" alt="snowboard" width="375px" height="500px" />
-            </article>
         </section>
 
+        <article class="fotos">
+            <img src="img/roma.jpg" alt="romita" width="375px" height="500px" />
+            <img src="img/pizza.jpg" alt="pizza jaz" width="375px" height="500px" />
+            <img src="img/snowboard.jpg" alt="snowboard" width="375px" height="500px" />
+        </article>
+
         <section class="info">
-            <h1>Información importante</h1>
-            <div class="experiencia">
-                <h2>Experiencia laboral</h2>
-                <h4>Ti Amo Pizzería</h4>
-                <ul>
-                    <li>Encargada de salón</li>
-                    <li>Atención al cliente</li>
-                </ul>
-                <h4>Ski Butternut - Work & Travel</h4>
-                <ul>
-                    <li>Atención al Cliente</li>
-                </ul>
-            </div>
+            <h2 class="titulo">Información importante</h2>
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <h3>Experiencia laboral</h3>
+                    <h4>Ti Amo Pizzería</h4>
+                    <ul>
+                        <li>Encargada de salón</li>
+                        <li>Atención al cliente</li>
+                    </ul>
+                    <h4>Ski Butternut - Work & Travel</h4>
+                    <ul>
+                        <li>Atención al Cliente</li>
+                    </ul>
+                </article>
 
-
-            <div class="educacion">
-                <h2>Educación</h2>
-                <ul>
+                <article class="tarjeta">
+                    <h3>Educación</h3>
                     <h4>Universidad Nacional de Lanús</h4>
-                    <li>Lic. en Diseño y Comunicación Visual</li>
+                    <ul>
+                        <li>Lic. en Diseño y Comunicación Visual</li>
+                    </ul>
                     <h4>Universidad Tecnólogica Nacional</h4>
-                    <li>Diplomatura en Community Manager y Marketing Digital</li>
+                    <ul>
+                        <li>Diplomatura en Community Manager y Marketing Digital</li>
+                    </ul>
                     <h4>Colegio de la Campiña</h4>
-                    <li>Bachiller en Ciencias Sociales</li>
-                </ul>
+                    <ul>
+                        <li>Bachiller en Ciencias Sociales</li>
+                    </ul>
+                </article>
             </div>
         </section>
 
@@ -78,7 +84,20 @@
     <footer>
         <p> Catedra Wischñevsky 2025</p>
     </footer>
+    <script>
+        const btn = document.querySelector('.accordion__btn');
+        const content = document.querySelector('.accordion__content');
 
+        btn.addEventListener('click', () => {
+
+            const expanded = btn.getAttribute('aria-expanded') === "true" || false;
+            btn.setAttribute('aria-expanded', !expanded);
+
+            content.classList.toggle('show');
+            content.style.maxHeight =
+                expanded ? "0" : content.scrollHeight + "px";
+        });
+    </script>
 </body>
 
 </html>
