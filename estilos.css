@@ -177,25 +177,27 @@ div.cards {
 }
 
 .card h3 {
-  text-align: center;
-  margin-bottom: .8rem;
-.columna {
-    flex: 1;
-    min-width: 250px;
+    text-align: center;
+    margin-bottom: .8rem;
 }
 
-element.style {
-    width: 35%;
-}
+    .columna {
+        flex: 1;
+        min-width: 250px;
+    }
 
-div.acordeon {
-    display: flex;
-    display: flex;
-    width: 31.25rem;
-    height: 7.5rem;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    border-radius: 6.25rem;
-    background: #7C8323;
-}
+    element.style {
+        width: 35%;
+    }
+
+    div.acordeon {
+        display: flex;
+        display: flex;
+        width: 31.25rem;
+        height: 7.5rem;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 6.25rem;
+        background: #7C8323;
+    }
