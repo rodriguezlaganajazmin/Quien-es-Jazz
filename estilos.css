@@ -253,13 +253,16 @@ element.style {
 
 
 .accordion_content {
-    max-height: 0;
+    max-height: 250px;
     overflow: hidden;
     transition: max-height 0.4s ease;
-    background: #FCD1F6;
+    background: #FF4500;
     border-radius: 20px;
-    margin-top: 1rem;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 0 1.5rem;
+    margin-bottom: 20px;
     width: 500px;
 }
 
