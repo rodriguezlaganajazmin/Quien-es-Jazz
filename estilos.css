@@ -88,6 +88,29 @@ h4 {
     margin: 10px;
 }
 
+h5 { 
+    color: #FCD1F6;
+    font-family: 'Bitter', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28pxl;
+    width: 23.0625rem;
+    margin: 10px;
+    text-align: center;
+}
+
+h6 { 
+    color: #FCD1F6;
+    font-family: 'Bitter', serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 28pxl;
+    width: 23.0625rem;
+    margin: 10px;
+    text-align: center;
+}
 
 ul {
     display: flex;
@@ -191,14 +214,17 @@ element.style {
     width: 35%;
 }
 
-/* CONTENEDOR */
 .accordion {
+    max-width: 600px;
+    margin: 2rem auto;
     max-width: 600px;
     margin: 2rem auto;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    justify-content: center;
     background-color: #7C8B23;
+    border-radius: 40px;
+}
 
 }
 
@@ -210,6 +236,12 @@ element.style {
     height: 100px;
     cursor: pointer;
     transition: background .3s ease;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: none;
 }
 
 .accordion_btn:hover {
@@ -241,9 +273,11 @@ element.style {
     border-radius: 40px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: fit-content;
-    margin-bottom: 10px;
     padding: 40px;
+    height: 250px;
+    padding: 0px;
+    margin-top: 0px;
+    border-radius: 40px;
+    align-items: center;
+    flex-direction: column;
 }
