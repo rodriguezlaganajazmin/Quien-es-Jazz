@@ -83,7 +83,7 @@ h4 {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    /* line-height: 3.3125rem; */
+    line-height: normal;
     width: 23.0625rem;
     flex-shrink: 0;
 }
@@ -164,7 +164,6 @@ div.cards {
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
-    background-color: #FF4500;
     padding: 2rem;
     border-radius: 20px;
 }
