@@ -194,7 +194,7 @@ div.cards {
 }
 
 .card {
-    background: #F44326;
+    background: #ff4500;
     color: #fcd1f6;
     width: 600px;
     padding: 2rem;
@@ -231,7 +231,7 @@ element.style {
 
 .accordion_btn {
 
-   background: #F44326;
+   background: #ff4500;
     border: none;
     padding: .8rem 1.8rem;
     border-radius: 40px;
@@ -255,7 +255,7 @@ element.style {
     /*height: 200px; */
     /*background: #FF4500;*/
     border-radius: 20px;
-    margin-top: 20px;
+   /* margin-top: 20px;*/
     margin-left: 20px;
     margin-right: 20px;
     padding: 0 1.5rem;
@@ -271,12 +271,15 @@ element.style {
     font-weight: 400;
     font-size: 18px;
     color: #fcd1f6;
-    margin: 1rem 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
 .accordion_content.show {
-    background-color: #7C8B23;
+    background-color: #ff4500;
     border-radius: 40px;
     display: flex;
     flex-direction: column;
