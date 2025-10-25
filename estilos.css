@@ -286,10 +286,10 @@ div.cards {
     align-items: center;
     flex-direction: column;
 }
-
-.src.imgroma.jpg {
-    border-radius: 40px;
-    border-color: #ff4500;
-    border-style: solid;
-    border-width: 5px;
+.contacto {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
