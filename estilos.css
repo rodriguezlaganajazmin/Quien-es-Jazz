@@ -136,7 +136,6 @@ p {
 
 footer {
     font-size: 10px;
-    text-align: center;
     color: #fcd1f6;
     background-color: #ff4500;
     margin: 0px;
@@ -151,6 +150,7 @@ footer {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    
 
 }
 
