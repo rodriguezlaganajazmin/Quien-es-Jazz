@@ -231,7 +231,7 @@ element.style {
 
 .accordion_btn {
 
-   background: #ff4500;
+    background: #ff4500;
     border: none;
     padding: .8rem 1.8rem;
     border-radius: 40px;
@@ -255,15 +255,15 @@ element.style {
     /*height: 200px; */
     /*background: #FF4500;*/
     border-radius: 20px;
-   /* margin-top: 20px;*/
+    /* margin-top: 20px;*/
     margin-left: 20px;
     margin-right: 20px;
     padding: 0 1.5rem;
     margin-bottom: 0px;
     width: 500px;
     max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
 }
 
 .accordion_content p {
