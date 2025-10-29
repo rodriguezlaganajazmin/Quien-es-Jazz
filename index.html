@@ -19,10 +19,12 @@
 <body>
     <header>
         <nav>
-            <img src="img/favicon.svg" alt="logo" width="50px" height="50px"/>
-            <a href="#quien"> Quién es?</a>
-            <a href="#que"> Qué hace?</a>
-            <a href="#contacto"> Cómo la llamo?</a>
+            <img src="img/favicon.svg" alt="logo" width="50px" height="50px" />
+            <ul class="nav-links"></ul>
+            <li><a href="#quien"> Quién es? </a></li>
+            <li><a href="#que"> Qué hace? </a></li>
+            <li><a href="#contacto"> Cómo la llamo?</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -86,33 +88,41 @@
     </main>
 
     <footer>
-        <p> Catedra Wischñevsky 2025</p>
+        <p class="footer-text"> Catedra Wischñevsky 2025</p>
+
         <ul class="contacto">
-            <img src="img/instagram.png" alt="instagram" width="20px" height="20px"/>
-            <li><a href="https://www.instagram.com/quechurra_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D">Instagram</a></li>
-            <img src="img/whatsapp.png" alt="whatsapp" width="20px" height="20px"/>
-            <li><a href="http://wa.link/qeet1q">WhatsApp</a></li>
+    <li>
+      <a href="https://www.instagram.com/quechurra?utm_source=ig_web_button_share_sheet" target="_blank">
+        <img src="img/instagram.png" alt="Instagram" width="20" height="20"> Instagram
+      </a>
+    </li>
+    <li>
+      <a href="http://wa.link/qeetlq" target="_blank">
+        <img src="img/whatsapp.png" alt="WhatsApp" width="20" height="20"> WhatsApp
+      </a>
+    </li>
+  </ul>
     </footer>
-   
-   <script>
-  const btn = document.querySelector('.accordion_btn');
-  const content = document.querySelector('.accordion_content');
 
-  btn.addEventListener('click', () => {
-    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    <script>
+        const btn = document.querySelector('.accordion_btn');
+        const content = document.querySelector('.accordion_content');
 
-    // Cambiar estado
-    btn.setAttribute('aria-expanded', !expanded);
-    content.classList.toggle('show');
+        btn.addEventListener('click', () => {
+            const expanded = btn.getAttribute('aria-expanded') === 'true';
 
-    // Animar apertura / cierre
-    if (expanded) {
-      content.style.maxHeight = '0';
-    } else {
-      content.style.maxHeight = content.scrollHeight + 'px';
-    }
-  });
-</script>
+            // Cambiar estado
+            btn.setAttribute('aria-expanded', !expanded);
+            content.classList.toggle('show');
+
+            // Animar apertura / cierre
+            if (expanded) {
+                content.style.maxHeight = '0';
+            } else {
+                content.style.maxHeight = content.scrollHeight + 'px';
+            }
+        });
+    </script>
 </body>
 
 </html>

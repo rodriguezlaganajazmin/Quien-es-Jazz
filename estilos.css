@@ -273,26 +273,29 @@ footer {
     margin: 30px auto 0 auto;
     border-radius: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    
+    padding: 0 40px;
+
 }
 
-.contacto {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+.footer-text {
     margin: 0;
-    padding: 0;
 }
 
-.contacto li a {
+.contacto a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
     color: #fcd1f6;
     text-decoration: none;
     font-weight: 700;
 }
-.contacto li a:hover {
+
+.contacto a:hover {
     text-decoration: underline;
+}
+
+.contacto img {
+    vertical-align: middle;
 }
