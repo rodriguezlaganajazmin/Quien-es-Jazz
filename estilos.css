@@ -293,7 +293,15 @@ footer {
     gap: 5px;
     color: #fcd1f6;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 400;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0;
+    /* padding: 0; */
+    flex-wrap: wrap;
 }
 
 .contacto a:hover {
