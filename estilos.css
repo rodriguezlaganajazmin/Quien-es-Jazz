@@ -129,7 +129,7 @@ h6 {
     align-items: center;
 }
 
-ul {
+ul.experiencia, ul.educacion {
     display: flex;
     gap: 10px;
     flex-direction: column-reverse;
@@ -279,7 +279,7 @@ footer {
     font-size: 10px;
     color: #fcd1f6;
     background-color: #ff4500;
-    width: 100%;
+    width: 95%;
     height: 100px;
     margin: 30px auto 0 auto;
     border-radius: 40px;
