@@ -267,8 +267,15 @@ form {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    max-width: 400px;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
+    border: #FF4500 2px solid;
+    gap: 15px;
+    margin: 0 auto;
+    width: 641px;
+    background: #eca68c;
+    padding: 20px;
 }
 input,
 textarea {
