@@ -52,7 +52,7 @@ ul.nav-links {
     text-decoration: underline;
 }
 
-
+/*titulos y textos*/
 h1,
 h2 {
     color: #FF4500;
@@ -114,6 +114,8 @@ p {
     justify-content: center;
     color: #fcd1f6;
 }
+
+/*index*/
 
 article.fotos {
     display: flex;
@@ -218,6 +220,7 @@ div.cards {
     padding: 0;
 }
 
+/*footer*/
 footer {
     font-size: 10px;
     color: #fcd1f6;
@@ -317,4 +320,7 @@ h6.mensaje {
     text-align: center;
     color: #7C8B23;
     font-weight: 700;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
