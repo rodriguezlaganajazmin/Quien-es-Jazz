@@ -326,7 +326,8 @@ h6.mensaje {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 400px;
+    margin: 0 0 0 30px;
 }
 section.contactame{
     display: flex;
