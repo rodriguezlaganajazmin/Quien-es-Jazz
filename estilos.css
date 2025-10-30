@@ -324,3 +324,9 @@ h6.mensaje {
     align-items: center;
     justify-content: center;
 }
+.contactame {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
