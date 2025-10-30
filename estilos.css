@@ -267,23 +267,21 @@ form {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 100%;
-    height: auto;
+    max-width: 602px;
     margin: 0 auto;
-    border: #FF4500 2px solid;
-    gap: 15px;
-    margin: 0 auto;
-    width: 641px;
-    background: #eca68c;
-    padding: 20px;
+    background: #f5b097;
+    padding: 30px;
+    border-radius: 40px;
+    margin: 0px 8px auto 0px;
 }
 input,
 textarea {
     padding: 10px;
-    border: 2px solid #ff4500;
+    border: 2px solid #FCD1F6;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Bitter', serif;
+    color: #7C8B23;
 }
 input:focus,
 textarea:focus {
@@ -301,5 +299,11 @@ button {
 }
 button:hover {
     background-color: #7C8B23;
+
 }                                       
 
+h6.mensaje {
+    text-align: center;
+    color: #7C8B23;
+    font-weight: 700;
+}
