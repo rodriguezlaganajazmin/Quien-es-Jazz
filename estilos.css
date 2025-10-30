@@ -284,6 +284,7 @@ textarea {
     border-radius: 10px;
     font-size: 20px;
     font-family: 'Bitter', serif;
+    background: #FCD1F6;
 }
 
 input:focus,
