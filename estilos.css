@@ -304,6 +304,8 @@ button {
     width: 200px;
     display: flex;
     justify-content: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
 }
 
 button:hover {
