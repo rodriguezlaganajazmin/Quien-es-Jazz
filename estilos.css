@@ -436,8 +436,9 @@ img.flechaatras {
     .nav-links a {
         font-size: 1rem;
     }
-    h1 h2 {
-        font-size: 1.8rem;
+    h1,
+    h2 {
+        font-size: 2rem;
     }
     h3 {
         font-size: 1.5rem;
@@ -446,6 +447,7 @@ img.flechaatras {
 
     .card {
         width: 90%;
+        padding: 1rem;
     }
 
     .accordion_btn,
