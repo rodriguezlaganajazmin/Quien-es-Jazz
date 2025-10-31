@@ -337,26 +337,22 @@ section.contactame{
 
 .landscape {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
-    margin: 30px 0;
+    flex-direction: column;
     background: #ff450030;
     border-radius: 40px;
-    padding: 20px;
+    padding: 50px;
     width: 1400px;
     height: 750px;
-    justify-content: center;
+    align-items: flex-start;
 }
 
-
-.portfolio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 h3.verde {
     margin-bottom: 20px;
     color: #7C8B23;
+}
+.imagenvideo {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
 }
