@@ -350,9 +350,19 @@ section.contactame{
 h3.verde {
     margin-bottom: 20px;
     color: #7C8B23;
+    display: flex
+;
+    flex-direction: row;
+
 }
 .imagenvideo {
     display: flex;
     gap: 30px;
     flex-direction: row;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
