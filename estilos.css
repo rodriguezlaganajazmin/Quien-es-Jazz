@@ -363,11 +363,22 @@ section.contactame {
 .notacion{
     display: flex;
     flex-direction: column;
+    padding: 50px;
+    width: 1400px;
+    height: 750px;
+    align-items: flex-start;
+    margin: 0px 0 0 0;
 }
 
 .syv {
-   display: flex;
-   gap: 30px;
+   padding: 0px 0px 50px 50px;
+    width: 1400px;
+    height: 750px;
+    align-items: flex-start;
+    margin: 0 0 0 0;
+    gap: 30px;
+    display: flex;
+
 }
 
 h3.verde {
