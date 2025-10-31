@@ -435,10 +435,13 @@ img.flechaatras {
     .nav-links a {
         font-size: 1rem;
     }
-    h1 {
+    h1 h2 {
         font-size: 2rem;
     }
-    
+    h3 {
+        font-size: 1.5rem;
+    }
+
 
     .card {
         width: 90%;
