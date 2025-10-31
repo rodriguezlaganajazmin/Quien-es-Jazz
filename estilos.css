@@ -355,3 +355,8 @@ section.contactame{
     flex-direction: column;
     align-items: center;
 }
+
+.landscape h3 {
+    margin-bottom: 20px;
+    color: #7C8B23;
+}
