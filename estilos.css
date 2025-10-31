@@ -441,6 +441,7 @@ img.flechaatras {
     h2 {
         font-size: 2rem;
         width: 80%;
+        align-items: center;
     }
 
     h3 {
@@ -453,13 +454,13 @@ img.flechaatras {
 
 
     .card {
-        width: 90%;
+        width: 70%;
         padding: 1rem;
     }
 
     .accordion_btn,
     .accordion_content {
-        width: 90%;
+        width: 70%;
     }
 
     button:hover {
