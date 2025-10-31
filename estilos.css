@@ -4,7 +4,7 @@
 
 * {
     font-family: 'Bitter', serif;
-    font-size: 18px;
+    font-size: 1.125rem; 
     box-sizing: border-box;
 }
 
@@ -12,7 +12,6 @@ body {
     background-color: #fcd1f6;
     margin: 0;
 }
-
 
 nav {
     background: #7C8B23;
@@ -42,7 +41,7 @@ ul.nav-links {
 .nav-links a {
     color: #fcd1f6;
     font-family: 'Syne', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem; 
     font-weight: 800;
     text-decoration: none;
     transition: 0.3s ease;
@@ -76,7 +75,7 @@ h5,
 h6 {
     color: #FCD1F6;
     font-family: 'Bitter', serif;
-    font-size: 24px;
+    font-size: 1.5rem; 
     font-weight: 700;
     margin: 10px;
 }
@@ -97,7 +96,6 @@ h6 {
     font-style: italic;
 }
 
-
 ul.experiencia,
 ul.educacion {
     display: flex;
@@ -117,7 +115,6 @@ p {
 }
 
 /*index*/
-
 article.fotos {
     display: flex;
     flex-wrap: wrap;
@@ -131,7 +128,6 @@ article.fotos img {
     border-radius: 20px;
 }
 
-
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -141,7 +137,6 @@ article.fotos img {
     gap: 30px;
     margin-top: 20px;
 }
-
 
 div.cards {
     display: flex;
@@ -164,7 +159,6 @@ div.cards {
 .card h3 {
     margin: 10px 0px 20px 0px;
 }
-
 
 .accordion {
     display: flex;
@@ -206,7 +200,7 @@ div.cards {
 
 .accordion_content p {
     font-family: 'Bitter', serif;
-    font-size: 18px;
+    font-size: 1.125rem; 
     color: #fcd1f6;
     margin: 10px;
 }
@@ -222,7 +216,7 @@ div.cards {
 
 /*footer*/
 footer {
-    font-size: 10px;
+    font-size: 0.625rem; 
     color: #fcd1f6;
     background-color: #ff4500;
     width: 95%;
@@ -282,7 +276,7 @@ textarea {
     padding: 10px;
     border: none;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Bitter', serif;
     background: #FCD1F6;
 }
@@ -299,7 +293,7 @@ button {
     border: none;
     padding: 10px;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 1rem; 
     cursor: pointer;
     width: 200px;
     display: flex;
@@ -310,11 +304,10 @@ button {
 
 button:hover {
     background-color: #7C8B23;
-
 }
 
 label {
-    font-size: 20px;
+    font-size: 1.25rem; 
     font-weight: 700;
     color: #7C8B23;
 }
@@ -376,7 +369,6 @@ section.contactame {
     margin: 0 0 0 0;
     gap: 50px;
     display: flex;
-
 }
 
 h3.verde {
@@ -384,7 +376,6 @@ h3.verde {
     color: #7C8B23;
     display: flex;
     flex-direction: row;
-
 }
 
 .imagenvideo {
@@ -415,6 +406,7 @@ h3.verde {
     gap: 20px;
     align-items: center;
 }
+
 img.flechaatras {
     margin: 30px;
 }
