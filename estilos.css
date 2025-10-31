@@ -374,7 +374,7 @@ section.contactame {
     height: 750px;
     align-items: flex-start;
     margin: 0 0 0 0;
-    gap: 30px;
+    gap: 50px;
     display: flex;
 
 }
@@ -400,11 +400,12 @@ h3.verde {
 }
 
 .descripcion {
-    width: 500px;
-    height: fit-content;
+    width: 609px;
+    height: 200px;
     background: #7c8b23;
     border-radius: 20px;
-    
+    margin: 0px 0 0 0;
+    padding: 30px;
 }
 
 .galeria {
