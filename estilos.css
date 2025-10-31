@@ -60,13 +60,14 @@ h2 {
     font-family: 'Syne', sans-serif;
     font-size: 3.8rem;
     font-weight: 800;
+    margin: 3rem 0 0 0; 
 }
 
 h3 {
     color: #FCD1F6;
     text-align: center;
     font-family: 'Syne', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 800;
 }
 
@@ -161,8 +162,7 @@ div.cards {
 }
 
 .card h3 {
-    text-align: center;
-    margin-bottom: .8rem;
+    margin: 10px 0px 20px 0px;
 }
 
 
