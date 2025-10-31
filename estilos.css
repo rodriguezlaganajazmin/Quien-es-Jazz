@@ -347,7 +347,7 @@ section.contactame {
     align-items: flex-start;
     margin: 30px 0;
 }
- 
+
 .musical {
     display: flex;
     background: #ff450030;
@@ -360,10 +360,9 @@ section.contactame {
     flex-direction: column;
 }
 
-.notacion{
+.notacion {
     display: flex;
     flex-direction: column;
-    padding: 50px;
     width: 1400px;
     height: 750px;
     align-items: flex-start;
@@ -371,7 +370,6 @@ section.contactame {
 }
 
 .syv {
-   padding: 0px 0px 50px 50px;
     width: 1400px;
     height: 750px;
     align-items: flex-start;
