@@ -4,7 +4,7 @@
 
 * {
     font-family: 'Bitter', serif;
-    font-size: 1.125rem; 
+    font-size: 1.125rem;
     box-sizing: border-box;
 }
 
@@ -41,7 +41,7 @@ ul.nav-links {
 .nav-links a {
     color: #fcd1f6;
     font-family: 'Syne', sans-serif;
-    font-size: 1.25rem; 
+    font-size: 1.25rem;
     font-weight: 800;
     text-decoration: none;
     transition: 0.3s ease;
@@ -75,7 +75,7 @@ h5,
 h6 {
     color: #FCD1F6;
     font-family: 'Bitter', serif;
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     font-weight: 700;
     margin: 10px;
 }
@@ -201,7 +201,7 @@ div.cards {
 
 .accordion_content p {
     font-family: 'Bitter', serif;
-    font-size: 1.125rem; 
+    font-size: 1.125rem;
     color: #fcd1f6;
     margin: 10px;
 }
@@ -217,7 +217,7 @@ div.cards {
 
 /*footer*/
 footer {
-    font-size: 0.625rem; 
+    font-size: 0.625rem;
     color: #fcd1f6;
     background-color: #ff4500;
     width: 95%;
@@ -294,7 +294,7 @@ button {
     border: none;
     padding: 10px;
     border-radius: 10px;
-    font-size: 1rem; 
+    font-size: 1rem;
     cursor: pointer;
     width: 200px;
     display: flex;
@@ -308,7 +308,7 @@ button:hover {
 }
 
 label {
-    font-size: 1.25rem; 
+    font-size: 1.25rem;
     font-weight: 700;
     color: #7C8B23;
 }
@@ -436,12 +436,19 @@ img.flechaatras {
     .nav-links a {
         font-size: 1rem;
     }
+
     h1,
     h2 {
         font-size: 2rem;
+        width: 80%;
     }
+
     h3 {
         font-size: 1.5rem;
+    }
+    h4 {
+        font-size: 1.2rem;
+        width: 100%;
     }
 
 
@@ -455,6 +462,11 @@ img.flechaatras {
         width: 90%;
     }
 
+    button:hover {
+        background-color: #7C8B23;
+        width: 90%;
+    }
+
     footer {
         flex-direction: column;
         height: auto;
@@ -462,4 +474,6 @@ img.flechaatras {
         gap: 10px;
     }
 
-}
+    ul.educacion,
+    ul.experiencia {
+        width: 90%;
