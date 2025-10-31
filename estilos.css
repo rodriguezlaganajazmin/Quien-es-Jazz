@@ -60,7 +60,7 @@ h2 {
     font-family: 'Syne', sans-serif;
     font-size: 3.8rem;
     font-weight: 800;
-    margin: 3rem 0 0 0; 
+    margin: 3rem 0 0 0;
 }
 
 h3 {
@@ -329,7 +329,8 @@ h6.mensaje {
     width: 400px;
     margin: 0 0 30px 0;
 }
-section.contactame{
+
+section.contactame {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -344,17 +345,32 @@ section.contactame{
     width: 1400px;
     height: 750px;
     align-items: flex-start;
+    margin: 30px 0;
+}
+ 
+.musical {
+    display: flex;
+    flex-direction: column;
+    background: #ff450030;
+    border-radius: 40px;
+    padding: 0px;
+    width: 1400px;
+    height: 750px;
+    align-items: flex-start;
 }
 
+.notacion
+    
+    flex-direction: row;    
 
 h3.verde {
     margin-bottom: 20px;
     color: #7C8B23;
-    display: flex
-;
+    display: flex;
     flex-direction: row;
 
 }
+
 .imagenvideo {
     display: flex;
     gap: 30px;
