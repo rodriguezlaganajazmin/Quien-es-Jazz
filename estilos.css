@@ -350,18 +350,25 @@ section.contactame {
  
 .musical {
     display: flex;
-    flex-direction: column;
     background: #ff450030;
     border-radius: 40px;
-    padding: 0px;
+    padding: 50px;
+    gap: 30px;
     width: 1400px;
     height: 750px;
-    align-items: flex-start;
+    margin: 40px 0 30px 0;
+    flex-direction: column;
 }
 
-.notacion
-    
-    flex-direction: row;    
+.notacion{
+    display: flex;
+    flex-direction: column;
+}
+
+.syv {
+   display: flex;
+   gap: 30px;
+}
 
 h3.verde {
     margin-bottom: 20px;
